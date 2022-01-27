@@ -1,0 +1,99 @@
+.wrapper {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.airports_info {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: 0;
+    border-bottom: 1px solid lightgrey;
+    height: 40px;
+}
+
+.airport_description {
+    display: flex;
+    align-items: center;
+}
+
+.airport_uid {
+    color: #0c73fe;
+    margin-left: 10px;
+}
+
+.date_description {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.date_description p {
+    font-size: 24px;
+}
+
+.date_description span {
+    margin-left: 10px;
+    color: #0c73fe;
+}
+
+
+.icon_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon_container img {
+    height: 20px;
+
+}
+
+.icon_container p {
+    margin-left: 10px;
+
+}
+
+.date_info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+}
+
+.carrier_info {
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+.carrier_info p{
+    margin: 0;
+}
+.separator_line{
+    width: 80%;
+}
+.transfer{
+    text-align: center;
+    color: #FF8C00;
+    cursor: pointer;
+    position: relative;
+}
+.transfer:after {
+    display: block;
+    width:200px;
+    content: '';
+    position: absolute;
+    border-bottom: 2px solid  #FF8C00;
+    top:50%;
+    left: 40px;
+}
+.transfer:before {
+    display: block;
+    width:200px;
+    content: '';
+    position: absolute;
+    border-bottom: 2px solid  #FF8C00;
+    top:50%;
+    right: 40px;
+}

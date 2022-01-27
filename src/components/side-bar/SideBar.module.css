@@ -1,0 +1,26 @@
+.wrapper {
+    height: 100vh;
+    padding-top: 40px;
+}
+
+.side_bar_item {
+    margin-top: 30px;
+}
+
+.side_bar_item h3 {
+    font-size: 14px;
+    font-weight: 700;
+}
+.sort{
+    display: flex;
+    flex-direction: column;
+}
+.sort_item{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 7px;
+}
+.sort_item p{
+    margin: 0;
+}

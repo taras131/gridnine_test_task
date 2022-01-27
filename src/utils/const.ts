@@ -1,0 +1,4 @@
+export const NONE = 'NONE'
+export const BY_ASCENDING_PRICE = 'BY_ASCENDING_PRICE'
+export const BY_DESCENDING_PRICE = 'BY_DESCENDING_PRICE'
+export const BY_TRAVEL_TIME = 'BY_TRAVEL_TIME'
